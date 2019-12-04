@@ -6,6 +6,7 @@ namespace AdventOfCode
     [TestClass]
     public class Day2
     {
+
         [TestMethod]
         public void Day2_part1_Test()
         {
