@@ -8,7 +8,7 @@ namespace ConnecionTest
     public class Day3
     {
         [TestMethod]
-        public void Day3_part1_Test()
+        public void Day3_part1_part2c_Test()
         {
             string text = System.IO.File.ReadAllText(@"D:\AdventOfCode\Puzzle input\input3.txt");
             var list = text.Split('\n');
@@ -156,11 +156,6 @@ namespace ConnecionTest
                     }
                 }
             }
-        }
-
-        [TestMethod]
-        public void Day3_part2_Test()
-        {
         }
     }
 }
