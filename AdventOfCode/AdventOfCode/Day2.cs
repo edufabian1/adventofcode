@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AdventOfCode
@@ -13,6 +14,9 @@ namespace AdventOfCode
             string input = System.IO.File.ReadAllText(@"D:\AdventOfCode\Puzzle input\input2.txt");
 
             var list = input.Split(',');
+
+            list[1] = "12";
+            list[2] = "2";
 
             var myInts = Array.ConvertAll(list, s => int.Parse(s));
 
